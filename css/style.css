@@ -1,0 +1,269 @@
+body {
+    align-items: flex-start;
+    font-family: Roboto;
+}
+
+
+header{
+    margin-bottom: 27px;
+    margin-top: 33px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 168px;
+    height: 22px;
+    
+}
+
+.input_search_parent{
+    padding: 0;
+    width: 407px;
+    border: 1px solid #C6C6C5;
+    color: #C6C6C5;
+    border-radius: 3px;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+}
+.input_search{
+    margin: 0px;
+    width: 325px;
+    float: left;
+    border: 0px solid #dad8d8;;
+    outline: 0px;
+    height: 40px;
+}
+.b_75 {
+    margin: 0px;
+    width: 75px;
+    color: gray;
+}
+.nav{
+    margin-bottom: 39px;
+    width: 100%;
+    height: 45px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    align-content:center;
+    
+
+}
+.nav_item{
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+}
+.head_button{
+    margin-right: 22px
+}
+.img_bt{
+    width: 30px;
+    height: 30px;
+    margin-right: 27px;
+    border: 0px;
+}
+.img_bt a{
+    width: inherit;
+    height: inherit;
+}
+.img_bt img {
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+
+}
+.ml_80{
+    margin-left:5%;
+}
+
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main {
+    width: 970px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.div_menu {
+    margin-top: 100px;
+    width: 970px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: super;
+}
+
+.menu {
+    position: relative;    
+    margin-right: 123px;
+}
+.border {
+   border-radius: 3px;
+   border: 1px solid #C6C6C5;
+   color:  #737270;
+}
+
+button{
+    padding: 11px 14px;
+    height: 40px;
+    font-size: 13px;
+}
+.blue {
+    background-color:#007AFF;
+    color: white;
+}
+.ai_center {
+    align-items:center;
+    justify-content: space-between;
+}
+
+.title_form{
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.tab_item{
+    padding-right: 70px;
+    margin-bottom: 10px;
+}
+.tab_item :last-child{
+    padding-right: 0px;
+}
+.label_tabs :last-child {
+    padding-right: 0px;
+}
+
+ul {
+    margin-right: 40px;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;   
+    position: relative;
+    font-size: 14px;
+    
+}
+li:nth-child(1) {
+    font-size: 20px;
+}
+li {
+   padding: 1px;
+   margin-bottom: 1em;
+   height: 18px;
+   font-family: Roboto;
+}
+.mr_0 {
+   margin-right: 0px;
+}
+
+.icon img {
+   height: 20px;
+   width: 20px;
+   vertical-align: middle;
+}
+li a {
+   text-decoration: none;
+}
+
+.bbs{
+   margin-top: 48px;
+   color: mediumblue;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+hr {
+   border: none;
+   background-color: rgb(187, 187, 187);
+   color:#C6C6C5;
+   height: 1px;
+   /* width: 95%; */
+}
+.text_gray {
+   margin-top: 0px;
+   color: #737270;
+   font-size: 12px;
+}
+.w {
+   width: 298px;
+}
+.mt{
+   margin-top: 9px;
+}
+.label_tabs {
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items:stretch;
+}
+.label_tabs :active{
+   color: darkgreen;
+}
+
+form {
+   padding: 30px 21px;
+   width: 100%;
+}
+.row_input{
+   display: flex;
+   flex-direction:row;
+   justify-content:space-between;
+}
+.mt_row_input{
+   margin-top: 17px;
+   margin-bottom: 0px;
+}
+legend{
+   font-size: 12px;
+   margin-bottom: 9px;
+   color: black;
+}
+input{
+   color: #C6C6C5;
+   background-color: white;
+   font-size: 12px;
+   height: 40px;
+   margin: 0px; 
+   padding-left: 5px;
+   box-sizing: border-box;
+}
+.input_adr input{
+   width: 298px;
+}
+.input_name{
+   width: 236px;
+}
+.input_title{
+   width: 100%;
+}
+.sub_name{
+   width: 151px;
+}
+fieldset{
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+.flex_column{
+   display:flex;
+   flex-direction: column;
+}
